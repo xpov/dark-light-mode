@@ -1,0 +1,257 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #3b404f;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    background-color: #fab702;
+}
+.carousel-header{
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.carousel-text{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+@media (max-width: 450px) {
+    .navbar-img{
+        width: 28px;
+        height: 28px;
+    }
+}
+@media (max-width: 180px) {
+    .navbar-img {
+        width: 18px;
+        height: 18px;
+    }
+}
+@media (max-width: 1000px) {
+    .carousel-caption{
+        display: none !important;
+    }  
+}
+.under-carousel{
+    background-color: #fab702;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-under-carousel a{
+    color: #000;
+    font-style:italic ;
+}
+.btn-user{
+    color: #fab702;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 0;
+}
+.main-cards h2{
+    font-size: 44px;
+    color: #3b404f;
+    font-weight: 700;
+}
+.main-cards p{
+    font-size: 18px;
+    color: #6d7396;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 840px;
+    font-style: italic;
+}
+.card-title{
+    font-size: 22px;
+    color: #3b404f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-text{
+    font-size: 16px;
+    color: #6d7396;
+    font-weight: 400;
+    line-height: 24px;
+}
+.btn-card{
+    font-size: 14px;
+    color: #3b404f;
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+.bg-grey{
+    background-color: #f8f8f8;
+}
+.advantages h3{
+    font-size: 22px;
+    color: #3b404f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.advantages p{
+    font-size: 16px;
+    color: #6d7396;
+    font-weight: 400;
+}
+.icon-1{
+    background: url(../images/ic-city.png);
+    background-repeat: no-repeat;
+}
+.icon-2{
+    background: url(../images/ic-home.png);
+    background-repeat: no-repeat;
+}
+.icon-3{
+    background: url(../images/ic-refabr.png);
+    background-repeat: no-repeat;
+}
+.feedback h2{
+    font-size: 44px;
+    color: #3b404f;
+    font-weight: 700;
+}
+.feedback p{
+    font-size: 18px;
+    color: #6d7396;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 840px;
+    font-style: italic;
+}
+@media (max-width: 500px) {
+    .feedback-card{
+        flex-wrap: wrap;
+    }
+    .img-feedback-2{
+        margin-top: 50px;
+    }
+}
+.img-meddle-text{
+    font-size: 16px;
+    color: #6d7396;
+    font-weight: 400;
+}
+.img-bottom-text{
+    font-size: 11px;
+    color: #3b404f;
+    font-weight: 500;
+}
+.footer{
+    background-color: #4c5b6d;
+}
+.footer p{
+    font-size: 13px;
+    color: #d8deff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+  }
+  
+.theme-switch-wrapper span {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+.toggle-text {
+    position: relative;
+    top: -4px;
+    right: 5px;
+    color: var(--on-background);
+    text-transform: capitalize;
+  }
+  
+.theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+.theme-switch input {
+    display: none;
+  }
+  
+.slider {
+    background: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+  }
+  
+.slider::before {
+    background: #fff;
+    bottom: 4px;
+    content: '';
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 26px;
+  }
+  
+input:checked + .slider {
+    background: var(--primary-color);
+  }
+  
+input:checked + .slider::before {
+    transform: translateX(26px);
+  }
+  
+.slider.round {
+    border-radius: 34px;
+  }
+  
+.slider.round::before {
+    border-radius: 50%;
+  }
+  
+#toggle-icon i:before {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+
+.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+.dark-theme {
+    background-color: #000;
+    color: #fff;
+}
+
+.bg-grey-light {
+    background-color: #f8f8f8;
+    color: #000;
+}
+
